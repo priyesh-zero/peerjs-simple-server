@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "peerjs --port 8000 --key peerjs --path /"
+    "start": "peerjs --port $PORT --key peerjs --path /"
   },
   "dependencies": {
     "peer": "^0.5.3"
